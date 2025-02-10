@@ -8,10 +8,21 @@ const PORT = 3000;
 app.use(express.json());
 app.use(cors());
 
+// Middleware para registrar la información de cada petición
+app.use((req, res, next) => {
+    const log = `\n[${new Date().toISOString()}] ` + 
+                `Método: ${req.method}, ` + 
+                `URL: ${req.originalUrl}, ` + 
+                `IP: ${req.ip}`;
+    console.log(log);
+    next();
+});
+
 // Ruta para obtener el catálogo completo
 app.get('/api/productos', (req, res) => {
-  fs.readFile('./data/productos.json', 'utf8', (err, data) => {
+    fs.readFile('./data/productos.json', 'utf8', (err, data) => {
     if (err) {
+      console.error(`Error leyendo el archivo productos.json: ${err.message}`);
       res.status(500).json({ error: 'Error al leer el archivo de productos.' });
     } else {
       res.json(JSON.parse(data));
