@@ -4,14 +4,14 @@
       "descripcion": "Pantalla AMOLED de 6.5 pulgadas, 128 GB de almacenamiento, 5G",
       "precio": 699.99,
       "categoria": "Electrónica",
-      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/79deef249596a9bce73dbee9cf4fbb2e28a8a8ef/data/imgs/smartphone.jpg"
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/cfaf1c68943d92e869e4dc43555b1337ef04cf42/data/imgs/smartphone.jpg"
     },
     {
       "nombre": "Auriculares Bluetooth",
       "descripcion": "Cancelación activa de ruido, hasta 20 horas de autonomía",
       "precio": 149.99,
       "categoria": "Electrónica",
-      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/79deef249596a9bce73dbee9cf4fbb2e28a8a8ef/data/imgs/auriculares-bt.jpg"
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/cfaf1c68943d92e869e4dc43555b1337ef04cf42/data/imgs/auriculares-bt.jpg"
     },
     {
       "nombre": "Zapatillas Deportivas RunnerPro",
