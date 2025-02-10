@@ -44,6 +44,12 @@ GET /api/productos
 ```
 Devuelve una lista de productos en formato JSON.
 
+Para hacer una petición en JavaScript se debe usar la siguiente función:
+
+```javascript
+fetch("https://serverdaw.onrender.com/api/productos")
+```
+
 Ejemplo de respuesta:
 ```json
 [
