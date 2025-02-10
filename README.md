@@ -15,13 +15,15 @@ La API devuelve una lista de objetos Producto con la siguiente estructura:
     "nombre": "Smartphone Galaxy S23",
     "descripcion": "Pantalla AMOLED de 6.1 pulgadas, cámara de 50 MP",
     "precio": 899.99,
-    "categoria": "Electrónica"
+    "categoria": "Electrónica",
+    "imagen": "https://media2.allzone.es/1777659-large_default/smartphones-samsung-galaxy-s23-s911-5g-dual-sim-8gb-ram-256gb-violeta-sams23s911256lpieu.jpg"
   },
   {
     "nombre": "Zapatillas Running Pro",
     "descripcion": "Zapatillas ligeras y resistentes para largas distancias",
     "precio": 119.95,
-    "categoria": "Deportes"
+    "categoria": "Deportes",
+    "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/79deef249596a9bce73dbee9cf4fbb2e28a8a8ef/data/imgs/zapatillas.jpg"
   }
 ]
 ```
@@ -33,6 +35,7 @@ La API devuelve una lista de objetos Producto con la siguiente estructura:
 | descripcion | String   | Descripción o características del producto |
 | precio      | Número   | Precio del producto (en euros)             |
 | categoria   | String   | Categoría a la que pertenece el producto   |
+| imagen      | Url      | Url a la imagen del producto               |
 
 ## Endpoints
 
@@ -48,7 +51,8 @@ Ejemplo de respuesta:
     "nombre": "Auriculares Inalámbricos",
     "descripcion": "Bluetooth 5.0, cancelación de ruido",
     "precio": 59.99,
-    "categoria": "Electrónica"
+    "categoria": "Electrónica",
+    "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/79deef249596a9bce73dbee9cf4fbb2e28a8a8ef/data/imgs/auriculares-bt.jpg"
   }
 ]
 ```
