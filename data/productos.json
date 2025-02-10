@@ -1,0 +1,93 @@
+[
+    {
+      "nombre": "Smartphone X12",
+      "descripcion": "Pantalla AMOLED de 6.5 pulgadas, 128 GB de almacenamiento, 5G",
+      "precio": 699.99,
+      "categoria": "Electrónica"
+    },
+    {
+      "nombre": "Auriculares Bluetooth",
+      "descripcion": "Cancelación activa de ruido, hasta 20 horas de autonomía",
+      "precio": 149.99,
+      "categoria": "Electrónica"
+    },
+    {
+      "nombre": "Zapatillas Deportivas RunnerPro",
+      "descripcion": "Suela amortiguada, tejido transpirable, peso ligero",
+      "precio": 89.99,
+      "categoria": "Ropa y calzado"
+    },
+    {
+      "nombre": "Camiseta Algodón Premium",
+      "descripcion": "100% algodón orgánico, corte clásico",
+      "precio": 24.99,
+      "categoria": "Ropa y calzado"
+    },
+    {
+      "nombre": "Laptop ProBook",
+      "descripcion": "Procesador Intel Core i7, 16 GB RAM, SSD 512 GB",
+      "precio": 1199.99,
+      "categoria": "Electrónica"
+    },
+    {
+      "nombre": "Mesa de Centro Moderna",
+      "descripcion": "Diseño minimalista, madera de roble macizo",
+      "precio": 249.99,
+      "categoria": "Muebles"
+    },
+    {
+      "nombre": "Sofá 3 Plazas",
+      "descripcion": "Tapizado en tela antimanchas, color gris oscuro",
+      "precio": 799.99,
+      "categoria": "Muebles"
+    },
+    {
+      "nombre": "Cafetera Espresso Deluxe",
+      "descripcion": "Presión de 15 bares, tanque de 1.5 litros",
+      "precio": 199.99,
+      "categoria": "Electrodomésticos"
+    },
+    {
+      "nombre": "Refrigerador No Frost",
+      "descripcion": "Capacidad de 320 litros, eficiencia energética A++",
+      "precio": 1299.99,
+      "categoria": "Electrodomésticos"
+    },
+    {
+      "nombre": "Reloj Deportivo SmartFit",
+      "descripcion": "Monitoreo de frecuencia cardiaca, GPS integrado",
+      "precio": 199.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "nombre": "Gafas de Sol Polarizadas",
+      "descripcion": "Protección UV400, marco resistente",
+      "precio": 59.99,
+      "categoria": "Accesorios"
+    },
+    {
+      "nombre": "Set de Sartenes Antiadherentes",
+      "descripcion": "Incluye 3 piezas con revestimiento cerámico",
+      "precio": 79.99,
+      "categoria": "Cocina"
+    },
+    {
+      "nombre": "Robot Aspirador ProClean",
+      "descripcion": "Función mopa y programación remota",
+      "precio": 299.99,
+      "categoria": "Electrodomésticos"
+    },
+    {
+      "nombre": "Libro: El Arte de Programar",
+      "descripcion": "Guía completa sobre algorítmica y estructuras de datos",
+      "precio": 49.99,
+      "categoria": "Libros"
+    },
+    {
+      "nombre": "Pack de Cuadernos Creativos",
+      "descripcion": "3 cuadernos con diseños exclusivos",
+      "precio": 14.99,
+      "categoria": "Papelería"
+    }
+  ]
+  
