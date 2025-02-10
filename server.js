@@ -30,21 +30,21 @@ app.get('/api/productos', (req, res) => {
   });
 });
 
-// Ruta para filtrar productos por categoría
-app.get('/api/productos/categoria/:categoria', (req, res) => {
-  const categoria = req.params.categoria.toLowerCase();
-  fs.readFile('./data/productos.json', 'utf8', (err, data) => {
-    if (err) {
-      res.status(500).json({ error: 'Error al leer el archivo de productos.' });
-    } else {
-      const productos = JSON.parse(data);
-      const filtrados = productos.filter(
-        (producto) => producto.categoria.toLowerCase() === categoria
-      );
-      res.json(filtrados);
-    }
-  });
-});
+// // Ruta para filtrar productos por categoría
+// app.get('/api/productos/categoria/:categoria', (req, res) => {
+//   const categoria = req.params.categoria.toLowerCase();
+//   fs.readFile('./data/productos.json', 'utf8', (err, data) => {
+//     if (err) {
+//       res.status(500).json({ error: 'Error al leer el archivo de productos.' });
+//     } else {
+//       const productos = JSON.parse(data);
+//       const filtrados = productos.filter(
+//         (producto) => producto.categoria.toLowerCase() === categoria
+//       );
+//       res.json(filtrados);
+//     }
+//   });
+// });
 
 // Inicia el servidor
 app.listen(PORT, () => {
