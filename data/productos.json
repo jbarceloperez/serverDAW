@@ -3,91 +3,120 @@
       "nombre": "Smartphone X12",
       "descripcion": "Pantalla AMOLED de 6.5 pulgadas, 128 GB de almacenamiento, 5G",
       "precio": 699.99,
-      "categoria": "Electrónica"
+      "categoria": "Electrónica",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/smartphone.jpg"
     },
     {
       "nombre": "Auriculares Bluetooth",
       "descripcion": "Cancelación activa de ruido, hasta 20 horas de autonomía",
       "precio": 149.99,
-      "categoria": "Electrónica"
+      "categoria": "Electrónica",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/auriculares-bt.jpg"
     },
     {
       "nombre": "Zapatillas Deportivas RunnerPro",
       "descripcion": "Suela amortiguada, tejido transpirable, peso ligero",
       "precio": 89.99,
-      "categoria": "Ropa y calzado"
+      "categoria": "Ropa y calzado",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/zapatillas.jpg"
     },
     {
       "nombre": "Camiseta Algodón Premium",
       "descripcion": "100% algodón orgánico, corte clásico",
       "precio": 24.99,
-      "categoria": "Ropa y calzado"
+      "categoria": "Ropa y calzado",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/camiseta.jpg"
     },
     {
-      "nombre": "Laptop ProBook",
+      "nombre": "Portátil ProBook",
       "descripcion": "Procesador Intel Core i7, 16 GB RAM, SSD 512 GB",
       "precio": 1199.99,
-      "categoria": "Electrónica"
+      "categoria": "Electrónica",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/portatil.png"
     },
     {
       "nombre": "Mesa de Centro Moderna",
       "descripcion": "Diseño minimalista, madera de roble macizo",
       "precio": 249.99,
-      "categoria": "Muebles"
+      "categoria": "Muebles",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/mesa.jpg"
     },
     {
       "nombre": "Sofá 3 Plazas",
       "descripcion": "Tapizado en tela antimanchas, color gris oscuro",
       "precio": 799.99,
-      "categoria": "Muebles"
+      "categoria": "Muebles",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/sofa.jpg"
     },
     {
       "nombre": "Cafetera Espresso Deluxe",
       "descripcion": "Presión de 15 bares, tanque de 1.5 litros",
       "precio": 199.99,
-      "categoria": "Electrodomésticos"
+      "categoria": "Electrodomésticos",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/cafetera.jpg"
     },
     {
-      "nombre": "Refrigerador No Frost",
+      "nombre": "Frigorífico No-Frost",
       "descripcion": "Capacidad de 320 litros, eficiencia energética A++",
       "precio": 1299.99,
-      "categoria": "Electrodomésticos"
+      "categoria": "Electrodomésticos",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/frigorifico.jpg"
     },
     {
       "nombre": "Reloj Deportivo SmartFit",
       "descripcion": "Monitoreo de frecuencia cardiaca, GPS integrado",
       "precio": 199.99,
-      "categoria": "Accesorios"
+      "categoria": "Accesorios",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/smartwatch.jpg"
     },
     {
       "nombre": "Gafas de Sol Polarizadas",
       "descripcion": "Protección UV400, marco resistente",
       "precio": 59.99,
-      "categoria": "Accesorios"
+      "categoria": "Accesorios",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/gafas-sol.jpg"
     },
     {
       "nombre": "Set de Sartenes Antiadherentes",
       "descripcion": "Incluye 3 piezas con revestimiento cerámico",
       "precio": 79.99,
-      "categoria": "Cocina"
+      "categoria": "Cocina",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/sartenes.jpg"
     },
     {
       "nombre": "Robot Aspirador ProClean",
       "descripcion": "Función mopa y programación remota",
       "precio": 299.99,
-      "categoria": "Electrodomésticos"
+      "categoria": "Electrodomésticos",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/robot-aspirador.jpg"
     },
     {
       "nombre": "Libro: El Arte de Programar",
       "descripcion": "Guía completa sobre algorítmica y estructuras de datos",
-      "precio": 49.99,
-      "categoria": "Libros"
+      "precio": 29.99,
+      "categoria": "Libros",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/el-arte-de-programar.jpg"
     },
     {
       "nombre": "Pack de Cuadernos Creativos",
       "descripcion": "3 cuadernos con diseños exclusivos",
       "precio": 14.99,
-      "categoria": "Papelería"
+      "categoria": "Papelería",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/cuadernos.jpg"
+    },
+    {
+      "nombre": "El Hobbit (Edición Ilustrada)",
+      "descripcion": "Versión de lujo con ilustraciones a todo color del clásico de la fantasía épica escrito por J.R.R. Tolkien",
+      "precio": 39.99,
+      "categoria": "Libros",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/el-hobbit-ilustrado.jpg"
+    },
+    {
+      "nombre": "El Camino de los Reyes",
+      "descripcion": "Primera entrega de la saga de fantasía épica 'El Archivo de las Tormentas' escrita por Brandon Sanderson",
+      "precio": 32.99,
+      "categoria": "Libros",
+      "imagen": "https://raw.githubusercontent.com/jbarceloperez/serverDAW/6df2bcd6b7850933cbbb6ccbd41737def35ddc48/data/imgs/stormlight1.jpg"
     }
   ]
   
