@@ -3,6 +3,7 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 const PORT = 3000;
+const MAX_DELAY = 1500; 
 
 // Middleware para parsear JSON
 app.use(express.json());
@@ -18,8 +19,15 @@ app.use((req, res, next) => {
     next();
 });
 
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 // Ruta para obtener el catálogo completo
-app.get('/api/productos', (req, res) => {
+app.get('/api/productos', async (req, res) => {
+    const randomDelay = Math.floor(Math.random() * MAX_DELAY);
+    await delay(randomDelay);
+
     fs.readFile('./data/productos.json', 'utf8', (err, data) => {
     if (err) {
       console.error(`Error leyendo el archivo productos.json: ${err.message}`);
