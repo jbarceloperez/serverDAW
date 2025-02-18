@@ -69,8 +69,8 @@ En caso de querer descargar el repositorio para ejecutar el servidor o depurar d
 
 1. Clona este repositorio:  
 ```bash
-   git clone https://github.com/jbarceloperez/serverDAW
-   cd serverDAW
+git clone https://github.com/jbarceloperez/serverDAW
+cd serverDAW
 ```
 
 2. Instala las dependencias del proyecto:
