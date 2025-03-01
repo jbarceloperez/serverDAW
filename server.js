@@ -1,6 +1,7 @@
 const cors = require('cors');
 const express = require('express');
 const fs = require('fs');
+const { exit } = require('process');
 const app = express();
 const PORT = 3000;
 const MAX_DELAY = 2500; 
@@ -25,21 +26,21 @@ function delay(ms) {
 
 // Ruta para obtener el catálogo completo
 app.get('/api/productos', async (req, res) => {
-    const randomDelay = Math.floor(Math.random() * MAX_DELAY);
-    await delay(randomDelay);
-    if (randomDelay > 1800) {
-      res.status(408).json({ error: 'Error al cargar el catálogo de productos (408: Request timeout)' });
-      return;
-    }
-
+  const randomDelay = Math.floor(Math.random() * MAX_DELAY);
+  await delay(randomDelay);
+  if (randomDelay > 1800) {
+    res.status(408).json({ error: 'Error al cargar el catálogo de productos (408: Request timeout)' });
+  }
+  else {
     fs.readFile('./data/productos.json', 'utf8', (err, data) => {
-    if (err) {
-      console.error(`Error leyendo el archivo productos.json: ${err.message}`);
-      res.status(500).json({ error: 'Error al leer el archivo de productos.' });
-    } else {
-      res.json(JSON.parse(data));
-    }
-  });
+      if (err) {
+        console.error(`Error leyendo el archivo productos.json: ${err.message}`);
+        res.status(500).json({ error: 'Error al leer el archivo de productos.' });
+      } else {
+        res.json(JSON.parse(data));
+      }
+    });
+  }
 });
 
 // Ruta para filtrar productos por categoría
