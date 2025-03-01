@@ -28,8 +28,9 @@ function delay(ms) {
 app.get('/api/productos', async (req, res) => {
   const randomDelay = Math.floor(Math.random() * MAX_DELAY);
   await delay(randomDelay);
-  if (randomDelay > 1800) {
-    res.status(408).json({ error: 'Error al cargar el catálogo de productos (408: Request timeout)' });
+  console.log(`Retraso de ${randomDelay} ms`);
+  if (randomDelay > 2000) {
+    res.status(500).json({ error: 'Error al cargar el catálogo de productos (500: internal Server Error)' });
   }
   else {
     fs.readFile('./data/productos.json', 'utf8', (err, data) => {
