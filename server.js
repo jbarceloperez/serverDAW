@@ -28,7 +28,7 @@ app.get('/api/productos', async (req, res) => {
     const randomDelay = Math.floor(Math.random() * MAX_DELAY);
     await delay(randomDelay);
     if (randomDelay > 1800) {
-      res.status(400).json({ error: 'Error al cargar el catálogo de productos.' });
+      res.status(408).json({ error: 'Error al cargar el catálogo de productos (408: Request timeout)' });
       return;
     }
 
